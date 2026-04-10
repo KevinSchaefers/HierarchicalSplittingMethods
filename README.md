@@ -5,6 +5,8 @@ Implementation of hierarchical splitting methods for the numerical results of th
 
 In particular, the repository contains two Jupyter notebooks. 
 
-In the first Jupyter notebook `rigid-body.ipynb`, the numerical tests of Section 4.1 are performed where rigid body equations are considered. 
+In the first Jupyter notebook `PHS_oscillator.ipynb`, the numerical tests of Section 4.1 are performed where a damped and forced harmonic oscillator is considered. 
 
-In the second Jupyter notebook `FPU-system.ipynb`, the numerical tests of Section 4.2 are performed where a modification of the Fermi-Pasta-Ulam (FPU) problem is considered. As the simulations performed in this notebook can take some time, the repository also contains the data obtained by running the simulations. 
+In the second Jupyter notebook `planet_motion.ipynb`, the numerical tests of Section 4.2 are performed where a four body-problem modeling a sun, two planets, and a satellite that quickly orbits around the first planet is considered.
+
+Moreover, the repository contains two additional Jupyter notebooks `rigid-body.ipynb` and `FPU-system.ipynb`, where hierarchical splitting methods have been applied to rigid body equations and a modification of the Fermi-Pasta-Ulam problem, respectively. These notebooks have been used to create numerical results for an initial draft of the paper.
