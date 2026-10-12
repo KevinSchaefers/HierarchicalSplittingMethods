@@ -3,10 +3,14 @@ Implementation of hierarchical splitting methods for the numerical results of th
 
 *K. Schäfers, M. Günther: A hierarchical splitting approach for N-split differential equations.*
 
-In particular, the repository contains two Jupyter notebooks. 
+In `FPU_system.ipynb`, numerical tests for a modified Fermi-Pasta-Ulam problem are performed, corresponding to the numerical results from Section 5.1.
 
-In the first Jupyter notebook `PHS_oscillator.ipynb`, the numerical tests of Section 4.1 are performed where a damped and forced harmonic oscillator is considered. 
+In `msd.ipynb`, numerical tests for coupled mass-spring-damper chains in a port-Hamiltonian formulation are performed, corresponding to the numerical results from Section 5.2.
 
-In the second Jupyter notebook `planet_motion.ipynb`, the numerical tests of Section 4.2 are performed where a four body-problem modeling a sun, two planets, and a satellite that quickly orbits around the first planet is considered.
+Moreover, the repository contains three additional Jupyter notebooks.
 
-Moreover, the repository contains two additional Jupyter notebooks `rigid-body.ipynb` and `FPU-system.ipynb`, where hierarchical splitting methods have been applied to rigid body equations and a modification of the Fermi-Pasta-Ulam problem, respectively. These notebooks have been used to create numerical results for an initial draft of the paper.
+In the Jupyter notebook `rigid-body.ipynb`, numerical tests for rigid body equations are conducted.
+
+In the Jupyter notebook `PHS_oscillator.ipynb`, numerical tests for a damped and forced harmonic oscillator are performed. 
+
+In the Jupyter notebook `planet_motion.ipynb`, numerical tests for a four-body problem modeling a sun, two planets, and a satellite that quickly orbits around the first planet are performed.
